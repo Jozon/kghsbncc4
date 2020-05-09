@@ -1,0 +1,38 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(82, 0, 0, 0.6)), url(../Image/bg.jpg) ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+h3{
+    color: rgb(164, 235, 92);
+    text-align: center
+}
+ul li {
+    bottom: 20px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid rgba(255, 147, 0, 0.92);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(75, 70, 70, 0.73);
+    transition: 1s;
+}
+ul li a {
+    color:rgba(255, 147, 0, 0.92);
+    text-decoration: none;
+}
+ul li:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 2px;
+}
+h3{
+    font-family: cursive;
+}
+
